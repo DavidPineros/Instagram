@@ -1,0 +1,105 @@
+
+body {background-color: #fafafa ;
+}
+
+.container {display: flex;}
+
+.imagencelular {width: 650px;
+                height: 200px;
+                text-align: right;
+                margin-top: 50px;}
+
+.Bloqueimputs {background-color: #ffffff;
+               width: 290px;
+               height: 320px;
+               padding: 30px;
+               margin-top: 87px;
+               margin-left: 20px;
+               border-radius: 2px;
+               border: solid #dbdbdb 1px;
+               text-align: left;
+               }
+
+.Instagramletrero {text-align: center;
+                   margin-bottom: 25px;}  
+
+.input {width: 90%; 
+        background-color: #e8f0fe;
+        padding: 9px;
+        margin-bottom: 8px;
+        border: 1px solid #dbdbdb;
+        border-radius: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+
+                }
+.Botoninicio {width: 97%; 
+              margin-top: 8px       ;
+              background-color: #0095f6;
+              padding: 7px;
+              margin-bottom: 15px;
+              border:none; color: #ffffff;
+              border-radius: 5px;
+              font-family: Arial, Helvetica, sans-serif; color: #ffffff; 
+              font-size: 15px;}
+.Bloquepassword {text-align: center;
+                  margin-top: 5px;
+                border-top: inherit;
+                padding: 15px}
+.Sesiónfacebook {top: 40px;
+                 font-size: 15px;
+                 font-weight: 600;
+                 color: #3851a3;
+                 text-decoration: none;
+                 }
+.Cambiopassword {font-size: 13px;
+                  font-weight: 100;
+                  color: #3851a3;
+                  text-decoration: none;}
+.Bloqueregistro {position: relative;
+                 top: 20px;
+                 right: 30px;
+                 padding: 5px;
+                 width: 339px;
+                 font: inherit;
+                 font-size: 14px;
+                 font-weight: 100;
+                 line-height: 18px;
+                 color: #262626;
+                 text-align: center;
+                 background-color: #ffffff;
+                 border-radius: 2px;
+                 border: solid #dbdbdb 1px;
+                 }
+.Registro       {text-decoration: none;
+                 color: #1795f6;
+                 font-weight: 700;
+                 }
+.imagenesdescarga {position: relative;
+        top: 20px;
+        right: 36px;
+        padding: 5px;
+        width: 339px;
+        text-align: center;}
+.Appstore {width: 150px;
+        height: 40px;
+        cursor: pointer;}
+.googleplay {width: 150px;
+        height: 40px;
+        cursor: pointer;}
+.bloquepiedepagina {margin-top: 240px;
+              margin-left: 50px;
+              padding: 30px;
+              font-size: 12px;
+              width: 90%;
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;   }
+.piedepagina {text-decoration: none;
+              color: #00376b;
+              margin: 10px 10px 10px 0px;
+              font-size: 12px; 
+              font-weight: 600;
+              text-align: start;
+              border: none;
+              background-color: #fafafa;
+        }
+.c {color: #9c9a91;
+    margin-left: 90px;}
