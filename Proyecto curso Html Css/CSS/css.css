@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+--green-color: #7acc2d;
+--white-color: white;
+--black-color: #313337; 
+
+--normal:15px;
+
+--space: 10px;
+
+--box: 0 0 1px #e6e5e9;
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{ 
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{ 
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../IMAGES/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    justify-content: center;
+    display: flex;
+}
+.product {
+    padding: var(--space);
+    margin-top: -350px;
+    
+}
+
+.product .content{
+    width: 250px;
+    background-color: var(--white-color);
+    padding: var(--space);
+    box-shadow: var(--box) ;
+}
+
+.img_content{ 
+    text-align: center;
+}
+
+.main_button{ 
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+}
+
+.products_descriptions{
+    display: flex; 
+    justify-content: center;
+    border-bottom: solid 1px rgb(223, 220, 220)
+    ;
+}
+
+.product_description{
+    font-size: var(--normal);
+    text-align: center;
+    margin-top: 75px;
+    padding: 100px;
+}
+
+section img {
+    width: 104px;
+    height: 104px;
+    }
+
+
+section h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.mentions{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mention {
+    margin: 12px;
+    border: solid 1px rgb(223, 220, 220);
+    box-shadow: 0 0 7px #979799;
+    width: 239px;
+}
+
+.img-mention {
+    width: 239px;
+    height: 104.55px;
+}
+
+.name-mention{
+    padding: 0px 10px 0px 10px;
+}
+
+.footer{
+    background-color: #313337;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footers {
+    color: var(--white-color);
+    padding: 0px 20px 0px 20px;
+    font-size: var(--normal);
+    font-weight: 100;
+}

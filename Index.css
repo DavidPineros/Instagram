@@ -1,4 +1,17 @@
+.conColor {
+    color:#537BC3;
+} 
+#tituloGeneral {
+    color: red;
+} 
+.conColor {
+    columns: #565656;
+}
+.container1{
+    display: flex;
+}
+.resaltado {
+    color: red;
+}
 
-.concolor {color: brown;}
-#titulogeneral{color:cornflowerblue}
-.concolor {color: #990695;}
+
