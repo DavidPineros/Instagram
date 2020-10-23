@@ -23,3 +23,16 @@ function myOperation(){
         console.log("El resultado de la operacion es " + res)}
 }  
     
+var arrayexample = [1,2,3,4,5,6,7,8,9]
+
+/* var multiplicacion = arrayexample.map(i => i * 10);
+console.log(multiplicacion) */
+ 
+function multiplicacionconarray (arrayexample){
+    var multiplicacion = 0;
+  for (var i = 0; i < arrayexample.length; i++){
+     multiplicacion = 10 * [i];
+  }
+  return multiplicacion;
+}
+console.log(multiplicacionconarray)
