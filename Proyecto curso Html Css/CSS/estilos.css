@@ -8,14 +8,20 @@
 --normal:15px;
 
 --space: 10px;
+--space2-: 20px;
 
---box: 0 0 1px #e6e5e9;
+--box: 0 0 2px 1px #e6e5e9;
 }
 html,body{
     padding: 0px;
     margin: 0px;
     font-size: var(--normal);
     font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-size: var(--normal);
+    padding-bottom: 15px;
 }
 
 nav{ 
@@ -136,6 +142,36 @@ section h2 {
 
 .name-mention{
     padding: 0px 10px 0px 10px;
+}
+
+.container{
+    align-content: center;
+    padding: 138px;
+}
+
+.modulo-pago-images{
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.modulo-pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.data{
+    margin-top: var(--space);
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+
+.modulo-pago .main_button{
+    margin-top: 10px;
 }
 
 .footer{
